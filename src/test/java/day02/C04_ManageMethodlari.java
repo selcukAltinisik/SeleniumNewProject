@@ -8,10 +8,14 @@ import java.time.Duration;
 public class C04_ManageMethodlari {
 
     public static void main(String[] args) {
-    System.setProperty("webdirver.chrome.driver","src/resources/drivers/chromedriver.exe");
+
+        System.setProperty("webdriver.chrome.driver","src/resources/drivers/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
+        driver.get("https://amazon.com");
+        driver.close();
 
         /*
         İleride wait konusunu daha geniş olarak ele alacağız..
