@@ -4,12 +4,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.w3c.dom.stylesheets.LinkStyle;
 
 import java.time.Duration;
 import java.util.List;
 
-public class SinifCalismasi {
+public class C01_SinifCalismasi {
 
     public static void main(String[] args) throws InterruptedException {
 
