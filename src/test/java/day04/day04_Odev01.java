@@ -1,6 +1,6 @@
 package day04;
 
-public class C01_Odev01 {
+public class day04_Odev01 {
 
 
     public static void main(String[] args) {
